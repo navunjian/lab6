@@ -41,7 +41,7 @@ function addID(result) {
 	 result['date'] + '</small><p>' + '<p>' +
 	 result['summary'] + '</p></a>';
 
-$("#projectID .details").html(projectHTML);
+	$('#project'+ result['id'] +' .details').html(projectHTML);
 }
 
 /*
